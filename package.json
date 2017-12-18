@@ -1,0 +1,13 @@
+{
+  "name": "flow-junit-transformer",
+  "version": "0.1.0",
+  "description": "Transform JSON output of a flow typecheck into JUnit XML format",
+  "main": "index.js",
+  "repository": "git@github.com:kironuniversity/flow-junit-transformer.git",
+  "author": "hendrikniemann <hendrik.niemann@kiron.ngo>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "flow-junit-transformer": "./cli.js"
+  }
+}

@@ -21,5 +21,5 @@ flow check --json | flow-junit-transformer
 With `flow-bin` and `flow-junit-transformer` in your `devDependencies` it is more likely to look like this:
 
 ```
-yarn --silent flow check --json | yarn --silent flow-junit-transformer > /results/flow-raw.json
+yarn --silent flow check --json | yarn --silent flow-junit-transformer > results/flow-junit.xml
 ```
